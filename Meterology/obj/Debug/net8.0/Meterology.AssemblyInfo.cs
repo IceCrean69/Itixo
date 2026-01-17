@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Meterology")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7053d04148c31da9684d347b8b1faf8e2d15eaa1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c78ac741e04630bf9b7c9b9ebabc36bc3f27ff78")]
 [assembly: System.Reflection.AssemblyProductAttribute("Meterology")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Meterology")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
