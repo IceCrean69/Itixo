@@ -5,5 +5,5 @@ namespace Meterology;
 public class Input
 {
     [XmlElement("sensor")]
-    public List<Sensor> Sensors {get;set;} = new List<Sensor>();
+    public List<Sensor> Sensors { get; set; } = new List<Sensor>();
 }

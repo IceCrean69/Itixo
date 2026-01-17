@@ -1,4 +1,5 @@
-﻿using System.Text.Json;
+﻿#nullable enable
+using System.Text.Json;
 using MySqlConnector;
 using Dapper;
 using Meterology;
@@ -9,7 +10,7 @@ namespace MyApp
     {
         static async Task Main(string[] args)
         {
-            while(true)
+            while (true)
             {
                 await ExecuteTask();
                 await Task.Delay(TimeSpan.FromHours(1));
@@ -18,13 +19,10 @@ namespace MyApp
 
         static async Task ExecuteTask()
         {
-            WeatherLog log = new WeatherLog
-            {
-                DownloadedTime = DateTime.Now
-            };
+            WeatherLog log = new WeatherLog { DownloadedTime = DateTime.Now };
             string url = "https://pastebin.com/raw/PMQueqDV";
 
-            using (HttpClient client = new  HttpClient())
+            using (HttpClient client = new HttpClient())
             {
                 try
                 {
@@ -34,15 +32,14 @@ namespace MyApp
                     log.Data = data;
                     log.isSuccess = true;
                 }
-                catch(Exception ex)
+                catch (Exception ex)
                 {
                     log.isSuccess = false;
-                    log.ErrorMessage = ex.Message;
+                    log.ErrorMessage = $"{ex.Message}, meteo stanica je offline";
                 }
             }
 
             SaveWeatherLog(log);
-
         }
         public static void SaveWeatherLog(WeatherLog log)
         {
@@ -50,6 +47,7 @@ namespace MyApp
             {
                 WriteIndented = true
             };
+
             string? jsonString = log.isSuccess ? JsonSerializer.Serialize(log.Data, options) : null;
             string conn = " Server = localhost; Database = weather_logs; Uid = root; Pwd = ";
 
@@ -62,7 +60,7 @@ namespace MyApp
                 {
                     log.DownloadedTime,
                     log.isSuccess,
-                    JsonData= jsonString,
+                    JsonData = jsonString,
                     log.ErrorMessage
                 });
             }

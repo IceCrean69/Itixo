@@ -5,19 +5,19 @@ namespace Meterology;
 public class Sensor
 {
     [XmlElement("type")]
-    public string Type {get; set;}
-    
+    public string Type { get; set; }
+
     [XmlElement("id")]
-    public string Id {get; set;}
-    
+    public string Id { get; set; }
+
     [XmlElement("name")]
-    public string Name {get; set;}
-    
+    public string Name { get; set; }
+
     [XmlElement("place")]
-    public string Place {get;set;}
-    
+    public string Place { get; set; }
+
     [XmlElement("value")]
-    public string Value {get; set;}
+    public string Value { get; set; }
 
 
 }

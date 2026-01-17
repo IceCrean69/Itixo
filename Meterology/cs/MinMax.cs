@@ -5,5 +5,5 @@ namespace Meterology;
 public class MinMax
 {
     [XmlElement("s")]
-    public List<S> S {get; set;} = new List<S>();
+    public List<S> S { get; set; } = new List<S>();
 }
