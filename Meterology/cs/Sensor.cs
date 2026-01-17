@@ -1,9 +1,7 @@
-using System;
-using System.Data.Common;
 using System.Xml.Serialization;
 
 namespace Meterology;
-[XmlRoot ("sensor")]
+
 public class Sensor
 {
     [XmlElement("type")]

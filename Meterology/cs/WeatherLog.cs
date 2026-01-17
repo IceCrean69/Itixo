@@ -1,5 +1,3 @@
-using System;
-
 namespace Meterology;
 
 public class WeatherLog

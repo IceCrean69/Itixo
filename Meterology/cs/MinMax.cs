@@ -1,8 +1,6 @@
-using System;
 using System.Xml.Serialization;
 
 namespace Meterology;
-
 
 public class MinMax
 {

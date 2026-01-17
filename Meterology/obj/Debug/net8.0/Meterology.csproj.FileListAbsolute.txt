@@ -63,3 +63,4 @@ E:\Programovanie\Itixo\Meterology\bin\Debug\net8.0\runtimes\win\lib\net8.0\Syste
 E:\Programovanie\Itixo\Meterology\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
 E:\Programovanie\Itixo\Meterology\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
 E:\Programovanie\Itixo\Meterology\obj\Debug\net8.0\Meterology.csproj.Up2Date
+E:\Programovanie\Itixo\Meterology\obj\Debug\net8.0\Meterology.sourcelink.json
