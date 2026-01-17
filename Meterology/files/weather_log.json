@@ -1,0 +1,251 @@
+{
+  "DownloadedTime": "2026-01-17T13:22:03.7605087+01:00",
+  "isSuccess": true,
+  "ErrorMessage": null,
+  "Data": {
+    "degree": "C",
+    "pressure": "hPa",
+    "serial_number": "0:50:c2:af:57:49",
+    "model": "ME13",
+    "firmware": "ME220014",
+    "runtime": 1236,
+    "freemem": 32464,
+    "date": "2025-5-20",
+    "time": "14:26:10",
+    "language": -1,
+    "pressure_type": 1,
+    "r": 0,
+    "bip": 0,
+    "input": {
+      "Sensors": [
+        {
+          "Type": "wind_direction",
+          "Id": "1002",
+          "Name": "Wind direction",
+          "Place": "",
+          "Value": "315.0"
+        },
+        {
+          "Type": "wind_speed",
+          "Id": "1003",
+          "Name": "Wind speed",
+          "Place": "",
+          "Value": "1.5"
+        },
+        {
+          "Type": "wind_gust",
+          "Id": "1004",
+          "Name": "Wind gust",
+          "Place": "",
+          "Value": "2.6"
+        },
+        {
+          "Type": "precipitation",
+          "Id": "1005",
+          "Name": "Precipitation",
+          "Place": "",
+          "Value": "0.0"
+        },
+        {
+          "Type": "temperature",
+          "Id": "1006",
+          "Name": "Temperature",
+          "Place": "",
+          "Value": "13.0"
+        },
+        {
+          "Type": "humidity",
+          "Id": "1007",
+          "Name": "Humidity",
+          "Place": "",
+          "Value": "74.2"
+        },
+        {
+          "Type": "pressure",
+          "Id": "1008",
+          "Name": "Pressure",
+          "Place": "",
+          "Value": "1023.4"
+        },
+        {
+          "Type": "exposure",
+          "Id": "1009",
+          "Name": "Light",
+          "Place": "",
+          "Value": "386.6"
+        },
+        {
+          "Type": "dew_point",
+          "Id": "1010",
+          "Name": "Dew point",
+          "Place": "",
+          "Value": "8.5"
+        },
+        {
+          "Type": "temperature_apparent",
+          "Id": "1011",
+          "Name": "T Apparent",
+          "Place": "",
+          "Value": "11.4"
+        },
+        {
+          "Type": "exposure_ideal",
+          "Id": "1012",
+          "Name": "Exposure ideal",
+          "Place": "",
+          "Value": "1096.0"
+        },
+        {
+          "Type": "ping",
+          "Id": "1013",
+          "Name": "PING0",
+          "Place": "",
+          "Value": "INACTIVE"
+        },
+        {
+          "Type": "ping",
+          "Id": "1014",
+          "Name": "PING0",
+          "Place": "",
+          "Value": "INACTIVE"
+        },
+        {
+          "Type": "ping",
+          "Id": "1015",
+          "Name": "PING0",
+          "Place": "",
+          "Value": "INACTIVE"
+        },
+        {
+          "Type": "ping",
+          "Id": "1016",
+          "Name": "PING0",
+          "Place": "",
+          "Value": "INACTIVE"
+        },
+        {
+          "Type": "ping",
+          "Id": "1017",
+          "Name": "PING0",
+          "Place": "",
+          "Value": "INACTIVE"
+        },
+        {
+          "Type": "ping",
+          "Id": "1018",
+          "Name": "PING0",
+          "Place": "",
+          "Value": "INACTIVE"
+        },
+        {
+          "Type": "ping",
+          "Id": "1019",
+          "Name": "PING0",
+          "Place": "",
+          "Value": "INACTIVE"
+        },
+        {
+          "Type": "ping",
+          "Id": "1020",
+          "Name": "PING0",
+          "Place": "",
+          "Value": "INACTIVE"
+        }
+      ]
+    },
+    "output": {
+      "Sensors": [
+        {
+          "Type": "io",
+          "Id": "1000",
+          "Name": "OUT1",
+          "Place": "",
+          "Value": "0"
+        },
+        {
+          "Type": "io",
+          "Id": "1001",
+          "Name": "OUT2",
+          "Place": "",
+          "Value": "0"
+        }
+      ]
+    },
+    "variable": {
+      "Sunrise": "4:54",
+      "Sunset": "20:32",
+      "CivStart": "4:14",
+      "CivEnd": "21:12",
+      "NautStart": "3:19",
+      "NautEnd": "22:7",
+      "AstroStart": "2:1",
+      "AstroEnd": "23:25",
+      "DayLen": "15:37",
+      "CivLen": "16:58",
+      "NautLen": "18:47",
+      "AstroLen": "21:24",
+      "MoonPhase": 8,
+      "IsDay": 1,
+      "Bio": 2,
+      "PressureOld": 1023.2,
+      "TemperatureAverage": 6.66,
+      "Agl": 549,
+      "Fog": 0,
+      "Lsp": 29
+    },
+    "minmax": {
+      "S": [
+        {
+          "Id": 1002,
+          "Min": 0,
+          "Max": 315
+        },
+        {
+          "Id": 1003,
+          "Min": 0,
+          "Max": 4.1
+        },
+        {
+          "Id": 1004,
+          "Min": 0,
+          "Max": 5.4
+        },
+        {
+          "Id": 1005,
+          "Min": 0,
+          "Max": 1.5
+        },
+        {
+          "Id": 1006,
+          "Min": 7.8,
+          "Max": 14.7
+        },
+        {
+          "Id": 1007,
+          "Min": 67.1,
+          "Max": 95.9
+        },
+        {
+          "Id": 1008,
+          "Min": 1022.3,
+          "Max": 1024.5
+        },
+        {
+          "Id": 1009,
+          "Min": 0,
+          "Max": 555.6
+        },
+        {
+          "Id": 1010,
+          "Min": 6.8,
+          "Max": 9
+        },
+        {
+          "Id": 1011,
+          "Min": 4.6,
+          "Max": 13.5
+        }
+      ]
+    }
+  }
+}
